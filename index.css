@@ -1,0 +1,76 @@
+body {
+
+  background-color :whitesmoke;
+}
+#welcome-text{
+  font-size: 120px;
+  color: black;
+  opacity: 0.8;
+  animation-name: welcome;
+ /* position: fixed; */
+  font-family: 'Roboto';
+  font-weight: 100;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+}
+
+#bio-text{
+  font-size: 60px;
+  color: black;
+  opacity: 0.8;
+  animation-name: bio;
+  font-family: 'Roboto';
+  font-weight: 100;
+  animation-name: bio;
+  animation-delay: 0s;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+  
+}
+
+.enter-button{
+  font-size: 40px;
+  font-family: 'Roboto';
+  font-weight: 100;
+  opacity: 0.35;
+  border: none;
+  background: none;
+  }
+  .enter-button:hover {
+    text-decoration: underline;
+    text-decoration-color: rgba(0, 0, 0, 0.3);
+  }
+
+/* Animations*/
+
+@keyframes bio {
+  0% {
+    opacity: 0;   
+    color: transparent;   }
+
+    50% {
+      color: transparent;
+      opacity: 0.5;
+    }
+  
+  100% {
+    opacity: 0.8; 
+    color: black;
+    }
+}
+@keyframes welcome {
+  0% {
+    opacity: 0;   
+    color: transparent;   }
+  
+  50% {
+    opacity: 0.5;
+    color: transparent;
+  }
+  
+  100% {
+    opacity: 0.8; 
+    color: black;
+    }
+}
+
